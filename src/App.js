@@ -14,7 +14,7 @@ function App() {
           <CAccordion activeItemKey={1}>
             <CAccordionItem itemKey={1}>
               <CAccordionHeader>
-                Thiết Kế Website / Landing Page
+                1. Thiết Kế Website / Landing Page
               </CAccordionHeader>
               <CAccordionBody>
                 <div className="card-body">
@@ -99,7 +99,7 @@ function App() {
               </CAccordionBody>
             </CAccordionItem>
             <CAccordionItem itemKey={2}>
-              <CAccordionHeader>Thiết Kế Thương Hiệu</CAccordionHeader>
+              <CAccordionHeader>2. Thiết Kế Thương Hiệu</CAccordionHeader>
               <CAccordionBody>
                 <div className="card-body">
                   <p className="heading">Dịch vụ của chúng tôi</p>
@@ -113,11 +113,36 @@ function App() {
                     <p>- Thiết kế tờ rơi, tờ gấp</p>
                     <p>- Thiết kế giao diện Shopee</p>
                   </div>
+                  <p className="heading">Sản phẩm của chúng tôi</p>
+                  <div className="grid grid-cols-1 md:grid-cols-4">
+                    <div className="project-item">
+                      <div>
+                        <p className="title">Lihasu Branding</p>
+                        <a
+                          target="_blank"
+                          href="https://drive.google.com/file/d/1IGdRHesKq4oqXd8rDJcTeFzJzT7BpAh8/view?usp=sharing"
+                        >
+                          Xem Project
+                        </a>
+                      </div>
+                    </div>
+                    <div className="project-item">
+                      <div>
+                        <p className="title">Nhựa Việt Anh</p>
+                        <a
+                          target="_blank"
+                          href="https://drive.google.com/file/d/1osiivDo4nNNr1tuNrJncQnBzK-1hsN01/view?usp=sharing"
+                        >
+                          Xem Project
+                        </a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </CAccordionBody>
             </CAccordionItem>
             <CAccordionItem itemKey={3}>
-              <CAccordionHeader>Sáng Tạo Nội Dung Đa Kênh</CAccordionHeader>
+              <CAccordionHeader>3. Sáng Tạo Nội Dung Đa Kênh</CAccordionHeader>
               <CAccordionBody>
                 <div className="card-body">
                   <p className="heading">Dịch vụ của chúng tôi</p>
@@ -156,7 +181,7 @@ function App() {
               </CAccordionBody>
             </CAccordionItem>
             <CAccordionItem itemKey={4}>
-              <CAccordionHeader>Quảng Cáo</CAccordionHeader>
+              <CAccordionHeader>4. Quảng Cáo</CAccordionHeader>
               <CAccordionBody>
                 <div className="card-body">
                   <p className="heading">Dịch vụ của chúng tôi</p>
@@ -172,7 +197,7 @@ function App() {
               </CAccordionBody>
             </CAccordionItem>
             <CAccordionItem itemKey={5}>
-              <CAccordionHeader>Sản Xuất Video</CAccordionHeader>
+              <CAccordionHeader>5. Sản Xuất Video</CAccordionHeader>
               <CAccordionBody>
                 <div className="card-body">
                   <p className="heading">Dịch vụ của chúng tôi</p>
@@ -264,7 +289,7 @@ function App() {
               </CAccordionBody>
             </CAccordionItem>
             <CAccordionItem itemKey={6}>
-              <CAccordionHeader>PHOTOGRAPHY</CAccordionHeader>
+              <CAccordionHeader>6. Photography</CAccordionHeader>
               <CAccordionBody>
                 <div className="card-body">
                   <p className="heading">Dịch vụ của chúng tôi</p>
@@ -279,7 +304,7 @@ function App() {
               </CAccordionBody>
             </CAccordionItem>
             <CAccordionItem itemKey={7}>
-              <CAccordionHeader>Xây Dựng Kênh</CAccordionHeader>
+              <CAccordionHeader>7. Xây Dựng Kênh</CAccordionHeader>
               <CAccordionBody>
                 <div className="card-body">
                   <p className="heading">Dịch vụ của chúng tôi</p>
@@ -291,7 +316,7 @@ function App() {
               </CAccordionBody>
             </CAccordionItem>
             <CAccordionItem itemKey={8}>
-              <CAccordionHeader>Tổ Chức Sự Kiện</CAccordionHeader>
+              <CAccordionHeader>8. Tổ Chức Sự Kiện</CAccordionHeader>
               <CAccordionBody>
                 <div className="card-body">
                   <p className="heading">Dịch vụ của chúng tôi</p>
@@ -341,7 +366,7 @@ function App() {
             </CAccordionItem>
             <CAccordionItem itemKey={9}>
               <CAccordionHeader>
-                Bài trắc nghiệm DISC & Motivators - Công cụ đọc vị nhân sự &
+                9. Bài trắc nghiệm DISC & Motivators - Công cụ đọc vị nhân sự &
                 Quản trị doanh nghiệp hiệu quả
               </CAccordionHeader>
               <CAccordionBody>
